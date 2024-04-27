@@ -16,7 +16,7 @@ highlight clear
 if exists('syntax_on')
     syntax reset
 endif
-let g:colors_name='moonfly'
+let g:colors_name='moonfly2'
 
 " Enable terminal true-color support.
 set termguicolors
@@ -32,7 +32,7 @@ let g:moonflyVirtualTextColor =  get(g:, 'moonflyVirtualTextColor', v:false)
 let g:moonflyWinSeparator = get(g:, 'moonflyWinSeparator', 1)
 
 if has('nvim')
-    lua require("moonfly").style()
+    lua require("moonfly2").style()
 else
     call moonfly#Style()
 end

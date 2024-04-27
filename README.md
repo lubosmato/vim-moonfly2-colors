@@ -85,13 +85,13 @@ manager.
 [lazy.nvim](https://github.com/folke/lazy.nvim):
 
 ```lua
-{ "bluz71/vim-moonfly-colors", name = "moonfly", lazy = false, priority = 1000 },
+{ "bluz71/vim-moonfly-colors", name = "moonfly2", lazy = false, priority = 1000 },
 ```
 
 [vim-plug](https://github.com/junegunn/vim-plug):
 
 ```vim
-Plug 'bluz71/vim-moonfly-colors', { 'as': 'moonfly' }
+Plug 'bluz71/vim-moonfly-colors', { 'as': 'moonfly2' }
 ```
 
 Usage
@@ -101,12 +101,12 @@ Enable the colorscheme after the plugin declaration.
 
 ```vim
 " Vimscript initialization file
-colorscheme moonfly
+colorscheme moonfly2
 ```
 
 ```lua
 -- Lua initialization file
-vim.cmd [[colorscheme moonfly]]
+vim.cmd [[colorscheme moonfly2]]
 ```
 
 Statusline
@@ -117,7 +117,7 @@ Statusline
   lightline theme please add the following to your initialization file:
 
 ```vim
-let g:lightline = { 'colorscheme': 'moonfly' }
+let g:lightline = { 'colorscheme': 'moonfly2' }
 ```
 
 - The _moonfly_ theme supports
@@ -395,7 +395,7 @@ augroup END
 -- Lua initialization file
 local custom_highlight = vim.api.nvim_create_augroup("CustomHighlight", {})
 vim.api.nvim_create_autocmd("ColorScheme", {
-  pattern = "moonfly",
+  pattern = "moonfly2",
   callback = function()
     vim.api.nvim_set_hl(0, "Function", { fg = "#74b2ff", bold = true })
   end,
