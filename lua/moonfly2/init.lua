@@ -1205,7 +1205,7 @@ M.style = function()
   highlight(0, "NvCheatsheetPurple", { link = "MoonflyPurpleMode" })
   highlight(0, "NvCheatsheetMagenta", { bg = violet, fg = grey11 })
 
-  highlight(0, "SnacksIndentScope", { fg = "#565656" })
+  highlight(0, "SnacksIndentScope", { fg = "#747474" })
   highlight(0, "SnacksIndent", { fg = "#262626" })
 end
 
