@@ -1204,6 +1204,15 @@ M.style = function()
   highlight(0, "NvCheatsheetOrange", { bg = coral, fg = grey11 })
   highlight(0, "NvCheatsheetPurple", { link = "MoonflyPurpleMode" })
   highlight(0, "NvCheatsheetMagenta", { bg = violet, fg = grey11 })
+
+  highlight(0, "SnacksIndent1", { fg = cranberry })
+  highlight(0, "SnacksIndent2", { fg = crimson })
+  highlight(0, "SnacksIndent3", { fg = purple })
+  highlight(0, "SnacksIndent4", { fg = sky })
+  highlight(0, "SnacksIndent5", { fg = blue })
+  highlight(0, "SnacksIndent6", { fg = lime })
+  highlight(0, "SnacksIndent7", { fg = green })
+  highlight(0, "SnacksIndent8", { fg = coral })
 end
 
 return M
